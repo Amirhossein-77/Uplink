@@ -1,5 +1,7 @@
 # Uplink
 
+![Alt text](docs/images/screenshot.png)
+
 > A lightweight desktop network connection monitor built with Python and PySide6.
 
 Uplink periodically probes configurable network hosts to help keep a connection active and monitor its health. It provides a modern glass-style desktop interface, background network checks, optional TCP fallback, and public IP monitoring.
