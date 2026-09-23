@@ -165,7 +165,8 @@ QPlainTextEdit {
         "Cascadia Code",
         "Consolas",
         monospace;
-    font-size: 10px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 /*
