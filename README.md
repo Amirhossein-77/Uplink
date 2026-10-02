@@ -62,43 +62,6 @@ The goal is simple: **keep an eye on your connection without getting in your way
 
 ---
 
-## 📸 Interface
-
-Uplink uses a dark glass-style interface designed to keep important connection information visible at a glance.
-
-The main dashboard contains:
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│  ◉ UPLINK                         ● Running   — □ ×          │
-│    Network connection guardian                              │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  Connection guardian is active                   NEXT PROBE │
-│  Network traffic is being generated...              42s     │
-│                                                             │
-│  TARGET   1.1.1.1                                           │
-├──────────────┬──────────────┬──────────────┬────────────────┤
-│   CYCLES     │   SUCCESS    │    FAILED    │   PUBLIC IP    │
-│     128      │     127      │      1       │  203.x.x.x    │
-├──────────────┴──────────────┴──────────────┴────────────────┤
-│ Configuration              │ Activity                       │
-│                            │                                │
-│ Probe interval             │ [INFO] Probing 1.1.1.1...     │
-│ [ 60 sec ]                 │ [ OK ] 1.1.1.1 responded      │
-│                            │ [INFO] Checking public IP...   │
-│ Hosts                      │                                │
-│ [1.1.1.1, 8.8.8.8, ...]   │                                │
-│                            │                                │
-│ ☑ Use TCP fallback         │                                │
-│ ☑ Monitor public IP       │                                │
-│                            │                                │
-│       [ ▶ Start Uplink ]  │                                │
-└────────────────────────────┴────────────────────────────────┘
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Requirements
