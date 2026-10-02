@@ -485,33 +485,6 @@ This makes it possible to add functionality without coupling unrelated parts of 
 
 ---
 
-## 🗺️ Roadmap
-
-Potential future improvements include:
-
-* [ ] Configurable probe timeout
-* [ ] Configurable TCP port
-* [ ] DNS resolution checks
-* [ ] HTTP/HTTPS probes
-* [ ] Custom probe types
-* [ ] Connection latency tracking
-* [ ] Average/min/max latency statistics
-* [ ] Historical connection graphs
-* [ ] Persistent configuration
-* [ ] Import/export configuration
-* [ ] System tray support
-* [ ] Start Uplink automatically with the OS
-* [ ] Desktop notifications
-* [ ] Configurable logging
-* [ ] Log file rotation
-* [ ] Export activity history
-* [ ] Connection-loss detection
-* [ ] Automatic recovery actions
-* [ ] Application packaging
-* [ ] Windows executable distribution
-* [ ] Linux packaging
-
----
 
 ## ⚠️ Notes
 
